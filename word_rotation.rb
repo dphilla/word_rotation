@@ -1,6 +1,8 @@
 
+
+
 class WordCheck
-  attr_reader :original, :word 
+  attr_reader :original, :word
 
   def initialize(original, word)
     @original = original
@@ -8,3 +10,10 @@ class WordCheck
   end
 
   def check
+    word = word.split(//)
+    #loop a rotation until a version matches @original
+
+  end
+
+
+end
