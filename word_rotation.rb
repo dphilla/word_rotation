@@ -15,5 +15,7 @@ class WordCheck
 
   end
 
+  #another option is using regexs for brevity
+
 
 end
