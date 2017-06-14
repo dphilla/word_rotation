@@ -9,9 +9,15 @@ class WordCheck
     @word = word
   end
 
+
+
+
   def check
     word = word.split(//)
-    #loop a rotation until a version matches @original
+    original = original.split(//)
+
+    until word == original
+      word.map.with_index { |letter, index| }
 
   end
 
