@@ -18,6 +18,7 @@ class WordCheck
 
     until word == original
       word.map.with_index { |letter, index| }
+    end
 
   end
 
