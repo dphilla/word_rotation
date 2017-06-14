@@ -19,3 +19,7 @@ class WordCheck
 
 
 end
+
+instance = WordCheck.new("apple", "pplea")
+
+require 'pry';binding.pry
